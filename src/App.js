@@ -11,7 +11,7 @@ function App() {
       <Switch>
         <Route path='/' exact>
           <HomePage />
-        </Route>
+        </Route>              
         <Route path='/auth'>
           <AuthPage />
         </Route>
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
